@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
         <title>Pilux drawing... - Formulario</title>
+        <link rel="icon" type="image/x-icon" href="../imgs/Untitled36_20230104232732.png">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/style.css">
     </head>
@@ -18,27 +19,65 @@
             <img src="../imgs/piluxlogo.png" class="logo-img"/>
              </div>
         <nav>
-        <a href="../pages/index.html" class="navbar-link">Home</a>        
-        <a href="../pages/novedades.html" class="navbar-link">Novedades</a>        
-        <a href="../pages/infocom.html" class="navbar-link">Info comisiones</a>        
-        <a href="../pages/form.html" class="navbar-link">Formulario</a>
-        <a href="../pages/extra.html" class="navbar-link">Extra</a>
+        <a href="../mi_repositorio/index.html" class="navbar-link">Home</a>        
+        <a href="../mi_repositorio/novedades.html" class="navbar-link">Novedades</a>        
+        <a href="../mi_repositorio/infocom.html" class="navbar-link">Info comisiones</a>        
+        <a href="../mi_repositorio/form.html" class="navbar-link">Formulario</a>
+        <a href="../mi_repositorio/extra.html" class="navbar-link">Extra</a>
         </nav> 
     </header>
         
-        
-    <main>
-        <button> boton
-        </button>
-    </main>
+    <main class="mainn">
+    <section class="form-contact">
+        <h5>Cuando completes este formulario la información me va a llegar y cuando hablemos ya va a estar todo aclarado!</h5>
+        <form action="pilux.art@gmail.com" method="post" enctype="text/plain" class="contact">
+        <label for="Tu nombre">Tu nombre:</label>
+        <input type="text" name="Tu nombre" id="Tu nombre">
+            
+        <label for="Username">User de Ig para contactarte:</label>
+        <input type="text" name="Username" id="Username">
+            
+        <label for="Email">Email:</label>
+        <input type="text" name="Email" id="Email">   
+            
+        <label for="PAGO">Forma de pago:</label>
+        <select name="pago">
+        <option>USD</option>
+       <option>ARG</option>
+       </select>    
+     <select name="pago">
+     <option>Paypal</option>
+     <option>Mercado pago</option>
+   </select>  
+            
+        <label for="TIPO">Tipo de comisión:</label>
+        <select name="pago">
+        <option>Chibi</option>
+       <option>Bust up</option>
+       <option>Full body</option>
+   </select>    
+            
+            <label for="Personaje">¡Más de un peronaje?</label>
+            <input type="checkbox" id="pers" name="pers" value="si">
+<label for="si"> Sí</label><br>
+<input type="checkbox" id="pers" name="pers" value="no">
+<label for="no"> No</label><br>
+            
+        <label for="Espacio">Espacio para describir el dibujo y personaje/s que quieras:</label>
+            <textarea name="Espacio" id="Espacio"></textarea>
+            
+        <input type="submit" value="Enviar">
+        </form>
+    </section>
+</main>  
         
 <footer class="footer">
   <article class="footer">
-            <form action="#">
+            <form action="pilux.art@gmail.com" method="post" enctype="text/plain" class="contact">
                  <div class="footerCosas">
                 <label>Tu opinion!</label>
                 <input type="text" class="footerCosas">
-            <button><input type="submit" value="Enviar" class="boton_Enviar" class="footer_Op"></button>
+            <button><input type="submit" value="Enviar" class="boton_Enviar"></button>
                 </div>
             </form>
             <nav>

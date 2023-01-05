@@ -42,6 +42,8 @@ nav a:hover{
          width: 60%;
     display: grid;
          border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
          border-color: #251B37;
          background-color: #FFCACA;
     margin-left: 20%;
@@ -82,13 +84,14 @@ nav a:hover{
     padding: 0px 25px 0px 25px;
 }
 
+
 .elvideo{ width: 400px;
     display: block;
     margin-left: 19rem;
     padding-top: 5rem;
     padding-bottom: 0rem;
 }
-/*CAROUSEL EN BOOTSTRAP Y SPINNERS*/ 
+/*CAROUSEL EN BOOTSTRAP*/ 
 
 .card{background-color: #FFCACA;
       border: 1px solid #251B37;
@@ -97,6 +100,8 @@ nav a:hover{
     padding: 1rem 0.5rem 1rem 1rem;
     grid-template-columns: 33% 33% 33%;
 }
+
+
 .card:hover{
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     transform: translateY(-3%)}
@@ -124,7 +129,7 @@ nav a:hover{
     width: 50%;
     height: 360px;
     padding: 10px 0px 10px 10px;
-    margin: 0px 0px 0px 220px;}
+    margin-left: 220px;}
 .cards .contenido{
     padding: 15px;
     text-align: center;}
@@ -157,7 +162,7 @@ nav a:hover{
     align-content: center;
     text-align: center;
     justify-content: center;
-padding-left: 25%}
+padding-left: 28%}
 .piluxx h2{
     font-weight: 400;
     color: #FFCACA;
@@ -219,11 +224,16 @@ padding-left: 25%}
     margin: 2px 30% 0px 60px;
     justify-content: center;
 }
+
+.gifinfo{
+    width: 100px;
+    margin-left: 28rem;
+}
 .procesoo{
     width: 100%;
     display: flex;
     max-width: 1100px; 
-    margin-top: 100px;
+    margin-top: 5px;
     
 }
 .proceso{
@@ -261,8 +271,69 @@ padding-left: 25%}
     margin: 0px 10px 0px 50px;
     justify-content: center;   }
 /*====================================== FORMULARIO=============================*/
+.form-contact {
+    background-color: #FFFFFF;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    box-shadow: 7px 10px 30px rgba(0, 0, 0, 0.6);
+    margin: 50px 0px 50px 0px;
+}
+
+.mainn{
+    width: 100%;
+  background-color: #FCACAF;
+  overflow: hidden;
+    color: #FCBCFF;
+    padding-left: 25%;
+   }
+
+.mainn h5{
+    color: #251B37;
+    text-align: center;
+    margin: 3px;
+    padding-top: 3px;
+    font-weight: 600;
+}
+.contact{
+    padding: 0.8rem;
+    overflow: hidden;
+    color: #251B37;}
+
+.contact label, .contact input, .contact textarea, .contact select .contact option {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;}
+
+.contact label{
+    font-weight: 700;}
+.contact input:not([type="submit"]), .contact textarea {
+    border: none;
+    border-bottom: 2px solid #FCACAF;
+    margin-bottom: 10px;
+    font-size: 20px;
+    outline: none;
+    color: #251B37;
+}
+.contact textarea {
+    min-height: 100px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    border: none;
+    background-color: #FCACAF;
+    color: #ffffff; 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
 
 /*====================================== EXTRA=============================*/
+.Titulo {
+    text-align: center;
+    background: #FFFFFF;
+}
+
 .containerextra{
     width: 100%;
     display: flex;
@@ -309,14 +380,18 @@ padding-left: 25%}
     background: #2FB4CC;
     color: #FFFFFF;}
 
-.redsocial{display: flex;
-    justify-content: center;
-    overflow: inherit;
-}
-.redsoc{
-    max-height: 40px;
-}
+.containerextra_skz{
+    width: 50%;
+    display: flex;
+    max-width: 1100px; 
+    margin-top: 100px;
+    margin-left: 25%}
 
+.textito{
+    text-align: center;
+    text-decoration: underline;
+    margin: 5px;
+}
 
 /* ===================================== FOOTER ====================================== */
 .footer{
@@ -332,17 +407,15 @@ padding-left: 25%}
     display:block;
     justify-content:flex-start;
     column-gap: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 
-.boton_Enviar{
-       background-color: #FEECEF;
-        margin: 1px 2px 1px 2px;
+.boton_Enviar{ margin: 7px 3px 0px 1.5px;
     border-style: none;
     color: #251B37;
-    
 }
+
 .footerCosas__Log{
     padding: 5px;
     display: flex;
@@ -382,7 +455,8 @@ button{
        background-color: #FEECEF;
          border-style: solid;
          border-color: #251B37;
-         border-width: 1px 1px 1px 1px;
+         border-width: 1px;
+    padding-right: 3px;
 }
 
 body{background-color: #FFECEF;
