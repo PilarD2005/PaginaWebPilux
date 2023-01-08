@@ -84,6 +84,15 @@ nav a:hover{
     padding: 0px 25px 0px 25px;
 }
 
+@media (max-width:700px){
+    .cardsh{ display: block;
+    width: 95%;
+        padding: 0px 5px 0px 0px;
+    margin-left: 0%}
+    .dos_Item{text-align: left;}
+    .tres_Item{padding-left: 0%;
+        align-content: flex-start;
+    padding-right: 100px;}}
 
 .elvideo{ width: 400px;
     display: block;
